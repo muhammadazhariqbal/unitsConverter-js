@@ -1,0 +1,33 @@
+/* responsivnss*/
+
+@media screen and (max-width: 580px) {
+    .converter-box {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .value-box {
+        height: 100px;
+        width: 100%;
+    }
+
+    .fromunit-box {
+        height: 100px;
+        width: 100%;
+    }
+
+    .tounit-box {
+        height: 100px;
+        width: 100%;
+    }
+
+    .result-box {
+        height: 100px;
+        width: 100%;
+    }
+
+    .button-box {
+        height: 100px;
+        width: 100%;
+    }
+}

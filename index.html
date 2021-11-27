@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNITS CONVERTER</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>unitconverter.</h1>
+        <p>Convert common units of measurement with this quick and free online unit converter.</p>
+        <p id="error-msg">Invalid Values Provided for the conversion, Check the values!</p>
+        <div class="converter-box">
+            <div class="value-box">
+                <p>Your Value</p>
+                <input class="value-input" type="number" name="value" placeholder="Enter Value" id="userValue" />
+            </div>
+            <div class="fromunit-box">
+                <p>From Unit</p>
+                <select name="units" class="fromunit-select" id="fromUnit">
+                    <option value="null">Select Unit</option>
+                    <option value="cm">cm </option>
+                    <option value="kg">kg </option>
+                    <option value="celsius">celsius </option>
+                    <option value="mm">mm </option>
+                    <option value="meters">meters </option>
+                    <option value="km">km </option>
+                    <option value="grams">grams </option>
+                    <option value="inches">inches </option>
+                    <option value="liters">liters </option>
+                    <option value="pounds">pounds </option>
+                    <option value="mph">mph </option>
+                    <option value="acres">acres </option>
+                    <option value="radians">radians </option>
+                    <option value="hp">hp </option>
+                    <option value="mL">mL </option>
+                    <option value="cups">cups </option>
+                    <option value="yards">yards </option>
+                    <option value="kw">kw </option>
+                    <option value="degrees">degrees </option>
+                    <option value="square feet">square feet </option>
+                    <option value="kph">kph </option>
+                    <option value="ounces">ounces </option>
+                    <option value="gallons">gallons </option>
+                    <option value="feet">feet </option>
+                    <option value="miles">miles </option>
+                    <option value="fahrenheit">fahrenheit </option>
+                    <option value="lbs">lbs </option>
+                </select>
+            </div>
+            <div class="tounit-box">
+                <p>To Unit</p>
+                <select name="units" class="fromunit-select" id="toUnit">
+                    <option value="null">Select Unit</option>
+                    <option value="cm">cm </option>
+                    <option value="kg">kg </option>
+                    <option value="celsius">celsius </option>
+                    <option value="mm">mm </option>
+                    <option value="meters">meters </option>
+                    <option value="km">km </option>
+                    <option value="grams">grams </option>
+                    <option value="inches">inches </option>
+                    <option value="liters">liters </option>
+                    <option value="pounds">pounds </option>
+                    <option value="mph">mph </option>
+                    <option value="acres">acres </option>
+                    <option value="radians">radians </option>
+                    <option value="hp">hp </option>
+                    <option value="mL">mL </option>
+                    <option value="cups">cups </option>
+                    <option value="yards">yards </option>
+                    <option value="kw">kw </option>
+                    <option value="degrees">degrees </option>
+                    <option value="square feet">square feet </option>
+                    <option value="kph">kph </option>
+                    <option value="ounces">ounces </option>
+                    <option value="gallons">gallons </option>
+                    <option value="feet">feet </option>
+                    <option value="miles">miles </option>
+                    <option value="fahrenheit">fahrenheit </option>
+                    <option value="lbs">lbs </option>
+                </select>
+            </div>
+            <div class="button-box">
+                <button class="btn" id="convertBtn">CONVERT <i class="fas fa-exchange-alt"></i></button>
+            </div>
+            <div class="result-box">
+                <p>Result</p>
+                <h2 id="result"></h2>
+                <!-- <input class="result" value="---" id="result"/> -->
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/convert.js"></script>
+</body>
+
+</html>
